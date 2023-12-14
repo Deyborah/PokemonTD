@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class Dresseur {
+public class Dresseur {
+
 }
