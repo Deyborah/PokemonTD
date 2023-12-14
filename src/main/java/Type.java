@@ -13,6 +13,7 @@ public class Type {
         Type feu = new Type("feu");
         Type eau = new Type("eau");
         Type plante = new Type("plante");
+        Type normal = new Type("normal");
 
 
         feu.faibleContre.add(eau);
