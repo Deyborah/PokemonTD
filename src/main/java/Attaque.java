@@ -11,12 +11,6 @@ public class Attaque {
         this.degatsMin = degatsMin;
         this.degatsMax = degatsMax;
     }
-    public static void initialiserTypes(){
-
-
-
-
-
-    }
 
 }
+
