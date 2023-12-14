@@ -12,5 +12,4 @@ public class Type {
         types.add(this);
     }
 
-
 }
