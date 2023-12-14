@@ -12,9 +12,8 @@ public abstract class Pokemon {
 
     //TODO : Ajouter List<Attaque>
 
-    private int compteurId = 1;
     protected Pokemon() {
-        this.pvMax = getRandomNumberUsingNextInt();
+        this.pvMax = getRandomNumber();
         this.pvRestant = this.pvMax;
     }
 
@@ -69,7 +68,11 @@ public abstract class Pokemon {
 
     }
 
-    public int getRandomNumberUsingNextInt() {
+    /**
+     * Méthode permettant de retourner un nombre aléatoire entre 40 et 45
+     * @return
+     */
+    public int getRandomNumber() {
         Random random = new Random();
         return random.nextInt(5 - 0) + 40;
     }
