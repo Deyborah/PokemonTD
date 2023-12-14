@@ -1,0 +1,25 @@
+anticiper pokémon avec deux types ?
+
+
+Prompt :    nom du joueur 1 ?
+			nom du joueur 2 ?
+
+new Dresseur(nom) avec pokémon aléatoires
+
+- tour du joueur 1 ou 2 : aléatoire
+
+Combat ---
+
+Dresseur :  3 choix
+			- consulter stats
+			- choixPokemon -> fin du tour, changement de joueur
+			- faire attaquer pokémon
+				-> salameche.attaquer(1, 2, 3 ou 4)
+					calcul des dommages de l'adversaire (aléatoire, dommage min-max)
+					appliquer pénalités/bonus selon type de l'attaque et type du pokémon en face
+					check PV de l'adversaire
+					
+					fin du tour
+						si PV > 0, changement de joueur 
+						si PV < 0, changement de joueur avec choixPokemon				
+						si le joueur adverse n'a plus de pokémon, fin du combat, victoire du joueur
