@@ -1,5 +1,3 @@
-package especes;
-
 public class Bulbizarre extends Pokemon {
 
     /**
@@ -11,9 +9,11 @@ public class Bulbizarre extends Pokemon {
     /**
      * Constructeur sans paramètre de l'espèce Bulbizarre
      * Surcharge de la propriété nom par le nom de l'espèce
+     * Surcharge la propriété type par le Type adéquate (Plante)
      */
     public Bulbizarre() {
         super.nom = NOM;
+        super.type = new Type("Plante");
     }
 
     /**

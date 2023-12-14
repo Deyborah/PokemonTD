@@ -1,27 +1,25 @@
-package especes;
-
-public class Salameche extends Pokemon {
+public class Carapuce extends Pokemon {
 
     /**
      * Constante permettant d'insérer le nom de l'espèce dans le cas où
      * l'utilisateur construit un pokémon sans lui donner de nom
      */
-    private static final String NOM = "Salamèche";
+    private static final String NOM = "Carapuce";
 
     /**
-     * Constructeur sans paramètre de l'espèce Salamèche
+     * Constructeur sans paramètre de l'espèce Carapuce
      * Surcharge de la propriété nom par le nom de l'espèce
      */
-    public Salameche(){
+    public Carapuce() {
         super.nom = NOM;
+        super.type = new Type("Eau");
     }
 
     /**
-     * Constructeur sans paramètre de l'espèce Salamèche
+     * Constructeur sans paramètre de l'espèce Carapuce
      * Surcharge de la propriété nom par le nom donné par l'utilisateur
      */
-    protected Salameche(String nom) {
-        super(nom);
+    public Carapuce(String nom){
+        super.nom = nom;
     }
-
 }

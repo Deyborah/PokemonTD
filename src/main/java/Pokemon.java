@@ -1,5 +1,4 @@
-package especes;
-
+import java.util.List;
 import java.util.Random;
 
 public abstract class Pokemon {
@@ -8,9 +7,9 @@ public abstract class Pokemon {
     protected int pvMax;
     protected int pvRestant;
 
-    //TODO : Ajouter le type
+    public Type type;
 
-    //TODO : Ajouter List<Attaque>
+    protected List<Attaque> attaque;
 
     protected Pokemon() {
         this.pvMax = getRandomNumber();
