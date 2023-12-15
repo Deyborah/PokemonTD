@@ -4,13 +4,13 @@ anticiper pokémon avec deux types ?
 Prompt :    nom du joueur 1 ?
 			nom du joueur 2 ?
 
-new pokemon.arene.Dresseur(nom) avec pokémon aléatoires
+new pokemon.dresseur.Dresseur(nom) avec pokémon aléatoires
 
 - tour du joueur 1 ou 2 : aléatoire
 
 pokemon.arene.Combat ---
 
-pokemon.arene.Dresseur :  3 choix
+pokemon.dresseur.Dresseur :  3 choix
 			- consulter stats
 			- choixPokemon -> fin du tour, changement de joueur
 			- faire attaquer pokémon

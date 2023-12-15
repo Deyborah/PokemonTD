@@ -11,12 +11,16 @@ public abstract class Pokemon {
     protected String nom;
     protected int pvMax;
     protected int pvRestant;
-
     public Type type;
-
     protected List<Attaque> attaque;
 
     protected Pokemon() {
+        this.pvMax = getRandomNumber();
+        this.pvRestant = this.pvMax;
+    }
+
+    protected Pokemon(String nom) {
+        this.nom = nom;
         this.pvMax = getRandomNumber();
         this.pvRestant = this.pvMax;
     }
@@ -44,9 +48,7 @@ public abstract class Pokemon {
     public void setPvRestant(int pvRestant) {
         this.pvRestant = pvRestant;
     }
-    protected Pokemon(String nom) {
-        this.nom = nom;
-    }
+
 
     public Type getType() {
         return type;

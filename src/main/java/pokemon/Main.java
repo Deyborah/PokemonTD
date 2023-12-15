@@ -7,26 +7,42 @@ import pokemon.pokemons.especes.Salameche;
 public class Main {
     public static void main(String[] args ){
 
-        Bulbizarre test = new Bulbizarre("test");
-        System.out.println(test.getNom());
-        System.out.println(test.getPvMax());
-        System.out.println(test.getType().getNom());
-        for (int index = 0; index < test.getAttaque().size(); index++){
-            System.out.println(test.getAttaque().get(index).getNom());
+        /**
+         * Test Bulbizarre avec paramètre
+         */
+        Bulbizarre bulbi = new Bulbizarre("bulbi");
+        System.out.println("Nom : " + bulbi.getNom());
+        System.out.println("PV : " + bulbi.getPvMax());
+        System.out.println("Type : " + bulbi.getType().getNom());
+        System.out.println("Liste des attaques : ");
+        for (int index = 0; index < bulbi.getAttaque().size(); index++){
+            System.out.println(bulbi.getAttaque().get(index).getNom());
         };
+        System.out.println("---------------------------------");
 
+        /**
+         * Initialisation Carapuce avec paramètre
+         */
+        Carapuce cara = new Carapuce("cara");
+        System.out.println("Nom : " + cara.getNom());
+        System.out.println("PV : " + cara.getPvMax());
+        System.out.println("Type : " + cara.getType().getNom());
+        System.out.println("Liste des attaques : ");
+        for (int index = 0; index < cara.getAttaque().size(); index++){
+            System.out.println(cara.getAttaque().get(index).getNom());
+        };
+        System.out.println("---------------------------------");
 
-        Carapuce test2 = new Carapuce("cara");
-        System.out.println(test2.getNom());
-        System.out.println(test2.getPvMax());
-        System.out.println(test2.getType().getNom());
-
-        Salameche test3 = new Salameche();
-        System.out.println(test3.getNom());
-        System.out.println(test3.getPvMax());
-        System.out.println(test3.getType().getNom());
-        for (int index = 0; index < test3.getAttaque().size(); index++){
-            System.out.println(test3.getAttaque().get(index).getNom());
+        /**
+         * Initialisation Salameche sans paramètre
+         */
+        Salameche salemeche = new Salameche();
+        System.out.println("Nom : " + salemeche.getNom());
+        System.out.println("PV : " + salemeche.getPvMax());
+        System.out.println("Type : " + salemeche.getType().getNom());
+        System.out.println("Liste des attaques : ");
+        for (int index = 0; index < salemeche.getAttaque().size(); index++){
+            System.out.println(salemeche.getAttaque().get(index).getNom());
         };
 
 

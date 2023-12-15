@@ -1,4 +1,4 @@
-package pokemon.arene;
+package pokemon.dresseur;
 
 import java.util.Random;
 import java.util.ArrayList;
@@ -30,7 +30,7 @@ public class Dresseur {
     }
 
    /* public static void changerPokemon{
-         String listedresseur= ArrayList<pokemon.arene.Dresseur> pokemon;
+         String listedresseur= ArrayList<pokemon.dresseur.Dresseur> pokemon;
     }
 */
 

@@ -9,6 +9,10 @@ public class Type {
 
     public static ArrayList<Type> types = new ArrayList<>();
 
+    public Type(){
+
+    }
+
     public Type(String nom){
         this.nom = nom;
         types.add(this);
