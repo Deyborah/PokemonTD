@@ -1,7 +1,10 @@
 package pokemon.pokemons.especes;
 
+import pokemon.arene.Attaque;
 import pokemon.pokemons.Pokemon;
 import pokemon.type.Type;
+
+import java.util.ArrayList;
 
 public class Salameche extends Pokemon {
 
@@ -14,7 +17,15 @@ public class Salameche extends Pokemon {
     /**
      * Constante permettant d'insérer le type de l'espèce
      */
-    private static Type type = new Type("feu");
+    private static Type typeFeu = new Type("feu");
+
+    private static Type typeNormal = new Type("normal");
+
+    //Initialisation de la liste d'attaque
+    private ArrayList<Attaque> listeAttaque = new ArrayList<>();
+    Attaque attaqueFeu = new Attaque("Lance flammes", typeFeu, 5);
+    Attaque charge = new Attaque("Charge", typeNormal, 2);
+    Attaque griffe = new Attaque("Griffe", typeNormal, 5);
 
     /**
      * Constructeur sans paramètre de l'espèce Salamèche
@@ -22,7 +33,11 @@ public class Salameche extends Pokemon {
      */
     public Salameche(){
         super.nom = NOM;
-        super.type = type;
+        super.type = typeFeu;
+        listeAttaque.add(attaqueFeu);
+        listeAttaque.add(charge);
+        listeAttaque.add(griffe);
+        super.attaque = listeAttaque;
     }
 
     /**
@@ -31,7 +46,11 @@ public class Salameche extends Pokemon {
      */
     protected Salameche(String nom) {
         super.nom = nom;
-        super.type = type;
+        super.type = typeFeu;
+        listeAttaque.add(attaqueFeu);
+        listeAttaque.add(charge);
+        listeAttaque.add(griffe);
+        super.attaque = listeAttaque;
     }
 
 }

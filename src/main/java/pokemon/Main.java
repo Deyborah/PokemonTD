@@ -11,7 +11,6 @@ public class Main {
         System.out.println(test.getNom());
         System.out.println(test.getPvMax());
         System.out.println(test.getType().getNom());
-
         for (int index = 0; index < test.getAttaque().size(); index++){
             System.out.println(test.getAttaque().get(index).getNom());
         };
@@ -26,6 +25,9 @@ public class Main {
         System.out.println(test3.getNom());
         System.out.println(test3.getPvMax());
         System.out.println(test3.getType().getNom());
+        for (int index = 0; index < test3.getAttaque().size(); index++){
+            System.out.println(test3.getAttaque().get(index).getNom());
+        };
 
 
     }
