@@ -21,7 +21,7 @@ public class Bulbizarre extends Pokemon {
     private static Type typeNormal = new Type("normal");
 
     private ArrayList<Attaque> listeAttaque = new ArrayList<>();
-    Attaque attaqueEau = new Attaque("Pistolet à eau", typePlante, 5);
+    Attaque attaqueEau = new Attaque("fouet lianes", typePlante, 5);
     Attaque charge = new Attaque("Charge", typeNormal, 2);
     Attaque griffe = new Attaque("Griffe", typeNormal, 5);
 
