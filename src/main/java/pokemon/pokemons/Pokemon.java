@@ -1,3 +1,8 @@
+package pokemon.pokemons;
+
+import pokemon.arene.Attaque;
+import pokemon.type.Type;
+
 import java.util.List;
 import java.util.Random;
 
@@ -43,9 +48,25 @@ public abstract class Pokemon {
         this.nom = nom;
     }
 
+    public Type getType() {
+        return type;
+    }
+
+    public void setType(Type type) {
+        this.type = type;
+    }
+
+    public List<Attaque> getAttaque() {
+        return attaque;
+    }
+
+    public void setAttaque(List<Attaque> attaque) {
+        this.attaque = attaque;
+    }
+
     /**
      * Méthode permettant d'utiliser une attaque contre un autre pokemon
-     * Pas de paramètre => choix d'une attaque aléatoire en fonction de la liste d'attaque du Pokemon
+     * Pas de paramètre => choix d'une attaque aléatoire en fonction de la liste d'attaque du pokemon.pokemons.Pokemon
      * Consigne :
      * - afficher les dégats
      * - afficher si force/faiblesse
@@ -57,7 +78,7 @@ public abstract class Pokemon {
 
     /**
      * Méthode permettant d'utiliser une attaque contre un autre pokemon
-     * Paramètre => choix d'une attaque parmi de la liste d'attaque du Pokemon
+     * Paramètre => choix d'une attaque parmi de la liste d'attaque du pokemon.pokemons.Pokemon
      * Consigne :
      * - afficher les dégats
      * - afficher si force/faiblesse

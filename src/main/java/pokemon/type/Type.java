@@ -1,9 +1,11 @@
+package pokemon.type;
+
 import java.util.ArrayList;
 
 public class Type {
     public String nom;
-    protected ArrayList<Type> fortContre = new ArrayList<Type>();
-    protected ArrayList<Type> faibleContre =new ArrayList<Type>();
+    protected ArrayList<Type> fortContre = new ArrayList<>();
+    protected ArrayList<Type> faibleContre =new ArrayList<>();
 
     public static ArrayList<Type> types = new ArrayList<>();
 

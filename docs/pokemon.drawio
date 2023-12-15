@@ -7,7 +7,7 @@
         <mxCell id="NayJDSWzLDzGvKhzu_Hn-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NayJDSWzLDzGvKhzu_Hn-2" target="NayJDSWzLDzGvKhzu_Hn-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NayJDSWzLDzGvKhzu_Hn-2" value="Pokemon (classe abstraite)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NayJDSWzLDzGvKhzu_Hn-2" value="pokemon.pokemons.Pokemon (classe abstraite)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="420" width="210" height="278" as="geometry" />
         </mxCell>
         <mxCell id="NayJDSWzLDzGvKhzu_Hn-3" value="+ id: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NayJDSWzLDzGvKhzu_Hn-2">
@@ -16,7 +16,7 @@
         <mxCell id="NayJDSWzLDzGvKhzu_Hn-4" value="+ nom: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NayJDSWzLDzGvKhzu_Hn-2">
           <mxGeometry y="52" width="210" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="NayJDSWzLDzGvKhzu_Hn-5" value="&lt;div&gt;+ pvMax: int &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ pvRestants: int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ attaques: ArrayList&amp;lt;Attaque&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ type: Type&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NayJDSWzLDzGvKhzu_Hn-2">
+        <mxCell id="NayJDSWzLDzGvKhzu_Hn-5" value="&lt;div&gt;+ pvMax: int &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ pvRestants: int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ attaques: ArrayList&amp;lt;pokemon.arene.Attaque&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ type: pokemon.type.Type&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NayJDSWzLDzGvKhzu_Hn-2">
           <mxGeometry y="80" width="210" height="150" as="geometry" />
         </mxCell>
         <mxCell id="NayJDSWzLDzGvKhzu_Hn-48" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NayJDSWzLDzGvKhzu_Hn-2">
@@ -30,25 +30,25 @@
             <mxPoint x="610" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NayJDSWzLDzGvKhzu_Hn-6" value="Type" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NayJDSWzLDzGvKhzu_Hn-6" value="pokemon.type.Type" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="390" width="170" height="104" as="geometry" />
         </mxCell>
         <mxCell id="NayJDSWzLDzGvKhzu_Hn-7" value="+ nom: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NayJDSWzLDzGvKhzu_Hn-6">
           <mxGeometry y="26" width="170" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="NayJDSWzLDzGvKhzu_Hn-8" value="+ fortContre: List&amp;lt;Type&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NayJDSWzLDzGvKhzu_Hn-6">
+        <mxCell id="NayJDSWzLDzGvKhzu_Hn-8" value="+ fortContre: List&amp;lt;pokemon.type.Type&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NayJDSWzLDzGvKhzu_Hn-6">
           <mxGeometry y="52" width="170" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="NayJDSWzLDzGvKhzu_Hn-9" value="+ faibleContre: List&amp;lt;Type&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NayJDSWzLDzGvKhzu_Hn-6">
+        <mxCell id="NayJDSWzLDzGvKhzu_Hn-9" value="+ faibleContre: List&amp;lt;pokemon.type.Type&amp;gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NayJDSWzLDzGvKhzu_Hn-6">
           <mxGeometry y="78" width="170" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="NayJDSWzLDzGvKhzu_Hn-16" value="Attaque" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NayJDSWzLDzGvKhzu_Hn-16" value="pokemon.arene.Attaque" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="670" y="540" width="140" height="150" as="geometry" />
         </mxCell>
         <mxCell id="NayJDSWzLDzGvKhzu_Hn-17" value="+ nom: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NayJDSWzLDzGvKhzu_Hn-16">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="NayJDSWzLDzGvKhzu_Hn-18" value="+ type: Type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NayJDSWzLDzGvKhzu_Hn-16">
+        <mxCell id="NayJDSWzLDzGvKhzu_Hn-18" value="+ type: pokemon.type.Type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NayJDSWzLDzGvKhzu_Hn-16">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="NayJDSWzLDzGvKhzu_Hn-19" value="&lt;div&gt;+ degatsMin: int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ degatsMax: int&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NayJDSWzLDzGvKhzu_Hn-16">
@@ -78,16 +78,16 @@
         <mxCell id="NayJDSWzLDzGvKhzu_Hn-26" value="+ nom: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NayJDSWzLDzGvKhzu_Hn-24">
           <mxGeometry y="56" width="210" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="NayJDSWzLDzGvKhzu_Hn-27" value="&lt;div&gt;+ pvMax: int (aléatoire ?)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ pvRestants: int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ attaques: ArrayList&amp;lt;Attaque&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ type: Type (ou List&amp;lt;Type&amp;gt;)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NayJDSWzLDzGvKhzu_Hn-24">
+        <mxCell id="NayJDSWzLDzGvKhzu_Hn-27" value="&lt;div&gt;+ pvMax: int (aléatoire ?)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ pvRestants: int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ attaques: ArrayList&amp;lt;pokemon.arene.Attaque&amp;gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ type: pokemon.type.Type (ou List&amp;lt;pokemon.type.Type&amp;gt;)&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NayJDSWzLDzGvKhzu_Hn-24">
           <mxGeometry y="84" width="210" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="NayJDSWzLDzGvKhzu_Hn-31" value="Dresseur" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NayJDSWzLDzGvKhzu_Hn-31" value="pokemon.arene.Dresseur" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="300" width="300" height="208" as="geometry" />
         </mxCell>
         <mxCell id="NayJDSWzLDzGvKhzu_Hn-32" value="+ nom: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NayJDSWzLDzGvKhzu_Hn-31">
           <mxGeometry y="26" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="NayJDSWzLDzGvKhzu_Hn-33" value="&lt;div&gt;+ pokemon: List&amp;lt;Pokemon&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NayJDSWzLDzGvKhzu_Hn-31">
+        <mxCell id="NayJDSWzLDzGvKhzu_Hn-33" value="&lt;div&gt;+ pokemon: List&amp;lt;pokemon.pokemons.Pokemon&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NayJDSWzLDzGvKhzu_Hn-31">
           <mxGeometry y="52" width="300" height="38" as="geometry" />
         </mxCell>
         <mxCell id="NayJDSWzLDzGvKhzu_Hn-47" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="NayJDSWzLDzGvKhzu_Hn-31">
@@ -96,13 +96,13 @@
         <mxCell id="NayJDSWzLDzGvKhzu_Hn-41" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;constructeur : nb aléatoire de pokémon aléatoires&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;attaquerAvecPokemonCourant()&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;changerPokemon()&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;consulterStats()&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="NayJDSWzLDzGvKhzu_Hn-31">
           <mxGeometry y="98" width="300" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="NayJDSWzLDzGvKhzu_Hn-35" value="Combat" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NayJDSWzLDzGvKhzu_Hn-35" value="pokemon.arene.Combat" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="530" width="210" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="NayJDSWzLDzGvKhzu_Hn-39" value="+ dresseur1: Dresseur" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NayJDSWzLDzGvKhzu_Hn-35">
+        <mxCell id="NayJDSWzLDzGvKhzu_Hn-39" value="+ dresseur1: pokemon.arene.Dresseur" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NayJDSWzLDzGvKhzu_Hn-35">
           <mxGeometry y="26" width="210" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="NayJDSWzLDzGvKhzu_Hn-36" value="&lt;div&gt;+ dresseur2: Dresseur&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NayJDSWzLDzGvKhzu_Hn-35">
+        <mxCell id="NayJDSWzLDzGvKhzu_Hn-36" value="&lt;div&gt;+ dresseur2: pokemon.arene.Dresseur&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NayJDSWzLDzGvKhzu_Hn-35">
           <mxGeometry y="52" width="210" height="26" as="geometry" />
         </mxCell>
         <mxCell id="NayJDSWzLDzGvKhzu_Hn-38" value="&lt;div&gt;(+ arene: String)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ combatEnCours: boolean ?&lt;/div&gt;&lt;div&gt;(victoire ?)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;enum victoire1 victoire2 enCours&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="NayJDSWzLDzGvKhzu_Hn-35">
